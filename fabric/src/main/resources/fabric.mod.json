@@ -16,8 +16,9 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.examplemod.ExampleMod"
-        ]
+            "tfar.classicscapeorigins.ClassicScapeOriginsFabric"
+        ],
+        "client": ["tfar.classicscapeorigins.ClassicScapeOriginsClientFabric"]
     },
     "mixins": [
         "${mod_id}.mixins.json",
